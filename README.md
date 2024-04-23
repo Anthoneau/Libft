@@ -1,1 +1,1 @@
-The first projet of 42 school : Libft.
+The first projet of 42 school : Libft
