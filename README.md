@@ -1,2 +1,5 @@
-The first projet of 42 school : Libft
-The code is on the Norm, the tests of war machine, Tripouille, unit-test and fsoares are OK and the francinette --strict is OK too !
+The first project of 42 school : Libft
+The code is on the Norm, the war machine, Tripouille, unit-test and fsoares tests are OK.
+Francinette --strict is OK too.
+
+06/23/24
