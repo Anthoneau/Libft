@@ -6,7 +6,7 @@
 /*   By: agoldber <agoldber@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/16 14:42:20 by agoldber          #+#    #+#             */
-/*   Updated: 2024/04/19 14:48:01 by agoldber         ###   ########.fr       */
+/*   Updated: 2024/04/23 14:36:29 by agoldber         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,12 +26,3 @@ t_list	*ft_lstnew(void *content)
 	node->next = NULL;
 	return (node);
 }
-
-//#include <stdio.h>
-//int	main(void)
-//{
-//	t_list	*list;
-//	list = ft_lstnew("string");
-//	printf("%s\n", list->content);
-//	return(0);
-//}

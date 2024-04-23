@@ -6,7 +6,7 @@
 /*   By: agoldber <agoldber@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/11 14:31:01 by agoldber          #+#    #+#             */
-/*   Updated: 2024/04/19 15:36:13 by agoldber         ###   ########.fr       */
+/*   Updated: 2024/04/23 14:37:18 by agoldber         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,22 +25,3 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 		i++;
 	}
 }
-
-//void	test(unsigned int i, char *c)
-//{
-//	if (c[i] >= 'a' && c[i] <= 'z')
-//		c[i] -= 32;
-//	else if (c[i] >= 'A' && c[i] <= 'Z')
-//		c[i] += 32;
-//	else
-//		c[i] += 1;
-//}
-//#include <stdio.h>
-//int		main(void)
-//{
-//	char	str[] = "TeSt dE sTrInG";
-
-//	ft_striteri(str, &test);
-//	printf("%s\n", str);
-//	return (0);
-//}

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: anthony <anthony@student.42.fr>            +#+  +:+       +#+        */
+/*   By: agoldber <agoldber@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/10 11:40:26 by agoldber          #+#    #+#             */
-/*   Updated: 2024/04/20 19:38:22 by anthony          ###   ########.fr       */
+/*   Updated: 2024/04/23 14:37:57 by agoldber         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,11 +64,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 		return (NULL);
 	return (return_str(s1, start, end));
 }
-
-// #include <stdio.h>
-// int main(void)
-// {
-// 	char string[] = "lorem \n ipsum \t dolor \n sit \t amet";
-// 	printf("%s\n", ft_strtrim(string, " "));
-// 	return (0);
-// }

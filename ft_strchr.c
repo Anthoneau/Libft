@@ -6,7 +6,7 @@
 /*   By: agoldber <agoldber@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/08 13:48:11 by agoldber          #+#    #+#             */
-/*   Updated: 2024/04/22 14:36:12 by agoldber         ###   ########.fr       */
+/*   Updated: 2024/04/23 14:37:12 by agoldber         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,11 +25,3 @@ char	*ft_strchr(const char *s, int c)
 	else
 		return ((char *)s + i);
 }
-
-//#include <stdio.h>
-//int main(void)
-//{
-//	//char s[] = "tripouille";
-//    printf("%s\n", ft_strchr("teste", 357));
-//    return (0);
-//}

@@ -6,7 +6,7 @@
 /*   By: agoldber <agoldber@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/10 15:29:39 by agoldber          #+#    #+#             */
-/*   Updated: 2024/04/22 12:22:59 by agoldber         ###   ########.fr       */
+/*   Updated: 2024/04/23 14:37:10 by agoldber         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -111,20 +111,3 @@ char	**ft_split(char const *s, char c)
 	arr[j] = NULL;
 	return (arr);
 }
-
-//#include <stdio.h>
-//int main(void)
-//{
-//	char string[] = "hello!zzzzzzzz";
-//	char **arr;
-//	int	n = 7;//count_word(string, 'e');
-//	int	i = 0;
-
-//	arr = ft_split(string, 'z');
-// 	while (i < n)
-// 	{
-// 		printf("%d : %s\n", i, arr[i]);
-// 		i++;
-// 	}
-// 	return (0);
-//}

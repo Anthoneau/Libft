@@ -6,7 +6,7 @@
 /*   By: agoldber <agoldber@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/11 11:24:03 by agoldber          #+#    #+#             */
-/*   Updated: 2024/04/18 10:05:26 by agoldber         ###   ########.fr       */
+/*   Updated: 2024/04/23 14:35:54 by agoldber         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,16 +62,3 @@ char	*ft_itoa(int n)
 		num[i] = a + '0';
 	return (num);
 }
-
-/*#include <stdio.h>
-int	main(int ac, char **av)
-{
-	int	n = ft_atoi(av[1]);
-
-	if (ac)
-	{
-		printf("%d\n", n);
-		printf("%s\n", ft_itoa(n));
-	}
-	return (0);
-}*/

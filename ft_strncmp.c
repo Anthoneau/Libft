@@ -6,7 +6,7 @@
 /*   By: agoldber <agoldber@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/08 14:07:52 by agoldber          #+#    #+#             */
-/*   Updated: 2024/04/18 10:07:56 by agoldber         ###   ########.fr       */
+/*   Updated: 2024/04/23 14:37:45 by agoldber         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,26 +28,3 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	else
 		return ((unsigned char)s1[i] - (unsigned char)s2[i]);
 }
-
-/*#include <string.h>
-#include <stdio.h>
-int main(void)
-{
-    //char str[] = "a";
-    //char str2[] = "";
-	printf("og %d\n", strncmp("t", "", 0));
-    printf("ft %d\n\n", ft_strncmp("t", "", 0));
-	printf("og %d\n", strncmp("1234", "1235", 3));
-	printf("ft %d\n\n", ft_strncmp("1234", "1235", 3));
-	printf("og %d\n", strncmp("", "1", 0));
-	printf("ft %d\n\n", ft_strncmp("", "1", 0));
-	printf("og %d\n", strncmp("test", "testss", 7));
-	printf("ft %d\n\n", ft_strncmp("test", "testss", 7));
-	printf("og %d\n", strncmp("testss", "test", 7));
-	printf("ft %d\n\n", ft_strncmp("testss", "test", 7));
-	printf("og %d\n", strncmp("test\200", "test\0", 6));
-	printf("ft %d\n\n", ft_strncmp("test\200", "test\0", 6));
-	printf("og %d\n", strncmp("teste", "testé", 6));
-	printf("ft %d\n\n", ft_strncmp("teste", "testé", 6));
-    return (0);
-}*/

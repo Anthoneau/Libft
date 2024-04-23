@@ -6,7 +6,7 @@
 /*   By: agoldber <agoldber@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/10 11:05:50 by agoldber          #+#    #+#             */
-/*   Updated: 2024/04/22 12:33:44 by agoldber         ###   ########.fr       */
+/*   Updated: 2024/04/23 14:37:21 by agoldber         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,12 +38,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	joined[j] = '\0';
 	return (joined);
 }
-
-//#include <stdio.h>
-//int main(void)
-//{
-//	char s1[] = "";
-//	char s2[] = "";
-//	printf("%s\n", ft_strjoin(s1, s2));
-//	return (0);
-//}

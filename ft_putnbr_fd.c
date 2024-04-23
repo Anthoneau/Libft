@@ -6,7 +6,7 @@
 /*   By: agoldber <agoldber@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/11 15:25:30 by agoldber          #+#    #+#             */
-/*   Updated: 2024/04/22 12:31:49 by agoldber         ###   ########.fr       */
+/*   Updated: 2024/04/23 14:37:02 by agoldber         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,17 +36,3 @@ void	ft_putnbr_fd(int n, int fd)
 	else if (a <= 9)
 		ft_putchar_fd((a + '0'), fd);
 }
-
-//#include <stdio.h>
-//int	main(int ac, char **av)
-//{
-//	int	n;
-
-//	if (ac)
-//	{
-//		n = ft_atoi(av[1]);
-//		printf("%s\n", av[1]);
-//		ft_putnbr_fd(n, 1);
-//	}
-//	return (0);
-//}

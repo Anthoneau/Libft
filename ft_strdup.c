@@ -6,7 +6,7 @@
 /*   By: agoldber <agoldber@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/10 10:29:11 by agoldber          #+#    #+#             */
-/*   Updated: 2024/04/18 10:20:50 by agoldber         ###   ########.fr       */
+/*   Updated: 2024/04/23 14:37:15 by agoldber         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,11 +29,3 @@ char	*ft_strdup(const char *s1)
 	dest[i] = '\0';
 	return (dest);
 }
-
-/*#include <stdio.h>
-int	main(void)
-{
-	char s[] = "string";
-	printf("%s\n", ft_strdup(s));
-	return (0);
-}*/
