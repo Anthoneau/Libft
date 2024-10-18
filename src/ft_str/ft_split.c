@@ -6,7 +6,7 @@
 /*   By: agoldber <agoldber@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/10 15:29:39 by agoldber          #+#    #+#             */
-/*   Updated: 2024/10/18 12:24:37 by agoldber         ###   ########.fr       */
+/*   Updated: 2024/10/18 12:42:27 by agoldber         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,19 +65,6 @@ static void	init_start_finish(char const *s, char c, int *start, int *finish)
 	while (s[end] && s[end] != c)
 		end++;
 	*finish = end;
-}
-
-static void	free_array(char **arr)
-{
-	int	i;
-
-	i = 0;
-	while (arr[i] != NULL)
-	{
-		free(arr[i]);
-		i++;
-	}
-	free(arr);
 }
 
 char	**ft_split(char const *s, char c)

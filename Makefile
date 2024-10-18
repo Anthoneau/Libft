@@ -6,7 +6,7 @@
 #    By: agoldber <agoldber@student.s19.be>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/07/27 09:39:13 by agoldber          #+#    #+#              #
-#    Updated: 2024/10/10 18:34:49 by agoldber         ###   ########.fr        #
+#    Updated: 2024/10/18 12:43:48 by agoldber         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -60,7 +60,7 @@ GNL_DIR		=	gnl/
 GNL			=	get_next_line get_next_line_utils
 
 FTADD_DIR	=	ft_add/
-FTADD		=	ft_swap
+FTADD		=	ft_swap free_array
 
 SRC_FILES+=${addprefix ${FTIS_DIR},${FTIS}}
 SRC_FILES+=${addprefix ${FTMEM_DIR},${FTMEM}}
